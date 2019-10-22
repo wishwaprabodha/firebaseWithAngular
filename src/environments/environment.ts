@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: 'AIzaSyAh7fvuD5JWlV9X7gJ-PiF-lKEmaILeID4',
+    authDomain: 'aspitio.firebaseapp.com',
+    databaseURL: 'https://aspitio.firebaseio.com',
+    projectId: 'aspitio',
+    storageBucket: 'aspitio.appspot.com',
+    messagingSenderId: '647646745173',
+    appId: '1:647646745173:web:f07031e339f7499501badc',
+    measurementId: 'G-M2XTM7ED5C'
+  }
 };
 
 /*
